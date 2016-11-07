@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:testview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.talkweb.tanghui.learnsample.MainActivity">
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+    
+    <ImageView
+        android:id="@+id/image_kk"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/weatherBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="weather"/>
+    
+    <View
+        android:id="@+id/line_gap"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gap_line"/>
+    
+    <com.talkweb.tanghui.learnsample.PieView
+        android:id="@+id/pie_view"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+    
+    <com.talkweb.tanghui.learnsample.view.TestView
+        android:id="@+id/ll_testview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        testview:isTest="true"
+        testview:offLeft="10dp"
+        testview:offRight="20dp">
+        
+    </com.talkweb.tanghui.learnsample.view.TestView>
+
+    <Button
+        android:id="@+id/button_ani"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="动画"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btn_okhttp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="okhttp"/>
+    
+    
+    <Button
+        android:id="@+id/view_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="myviewgroup"/>
+
+    <com.talkweb.tanghui.learnsample.view.myButton
+        android:id="@+id/myBtton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="dispatch"/>
+        
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/paint_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="画笔wocao"
+        android:onClick="click_button_wocao"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lll"
+        android:onClick="click_button"/>
+</LinearLayout>
