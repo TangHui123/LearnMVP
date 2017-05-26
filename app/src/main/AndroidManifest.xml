@@ -29,7 +29,7 @@
         <activity android:name="com.talkweb.tanghui.learnsample.MyViewGroupActivity"
                   android:screenOrientation="portrait"/>
         <activity android:name=".PaintActivity"
-                  android:screenOrientation="portrait"/><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+                  android:screenOrientation="portrait"/><!-- ATTENTION: git rebase This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
         <meta-data
             android:name="com.google.android.gms.version"
